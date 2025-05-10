@@ -25,16 +25,20 @@ Web Server: Uvicorn
 
 🔧 Installation
 1.Clone the repository
-git clone https://github.com/your-username/post-crafter.git
-cd post-crafter
+-git clone https://github.com/your-username/post-crafter.git
+-cd post-crafter
+
 2.Set up a virtual environment
-python -m venv env
-source env/bin/activate   # or `env\Scripts\activate` on Windows
+-python -m venv env
+-source env/bin/activate   # or `env\Scripts\activate` on Windows
+
 3.Install dependencies
-pip install -r requirements.txt
+-pip install -r requirements.txt
+
 4.Set OpenAI API Key
-export OPENAI_API_KEY=your_key_here   # Linux/Mac
-set OPENAI_API_KEY=your_key_here      # Windows
+-export OPENAI_API_KEY=your_key_here   # Linux/Mac
+-set OPENAI_API_KEY=your_key_here      # Windows
+
 ▶️ Run the app
-uvicorn main:app --reload
-The app will be available at: http://127.0.0.1:8000
+-uvicorn main:app --reload
+-The app will be available at: http://127.0.0.1:8000
