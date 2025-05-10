@@ -2,12 +2,12 @@
 Post Crafter – AI-Driven Social Media Content Generator Post Crafter is a FastAPI-based backend application that uses OpenAI's GPT-4 to generate compelling Instagram and Twitter posts for product marketing. Users can select platforms, choose content templates, generate engaging hooks, and craft the final social media post—all powered by AI.
 
 ## Features
-Submit a product name for marketing.
-Choose a target platform (Instagram or Twitter).
-Select from 5 different post templates.
-Generate 5 AI-powered hook lines.
-Choose a hook and get a tailored final post.
-Uses OpenAI's GPT-4 via openai-python SDK.
+1.Submit a product name for marketing.
+2.Choose a target platform (Instagram or Twitter).
+3.Select from 5 different post templates.
+4.Generate 5 AI-powered hook lines.
+5.Choose a hook and get a tailored final post.
+6.Uses OpenAI's GPT-4 via openai-python SDK.
 
 ### Tech Stack
 Backend: FastAPI
