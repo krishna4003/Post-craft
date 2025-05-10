@@ -3,16 +3,24 @@ Post Crafter – AI-Driven Social Media Content Generator Post Crafter is a Fast
 
 ## Features
 1.Submit a product name for marketing.
+
 2.Choose a target platform (Instagram or Twitter).
+
 3.Select from 5 different post templates.
+
 4.Generate 5 AI-powered hook lines.
+
 5.Choose a hook and get a tailored final post.
+
 6.Uses OpenAI's GPT-4 via openai-python SDK.
 
 ### Tech Stack
 Backend: FastAPI
+
 Language: Python
+
 AI Model: OpenAI GPT-4
+
 Web Server: Uvicorn
 
 #### Installation
@@ -31,6 +39,6 @@ Web Server: Uvicorn
 -export OPENAI_API_KEY=your_key_here   # Linux/Mac
 -set OPENAI_API_KEY=your_key_here      # Windows
 
-5. Run the app
+5.Run the app
 -uvicorn main:app --reload
 -The app will be available at: http://127.0.0.1:8000
