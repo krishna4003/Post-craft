@@ -41,4 +41,4 @@ Web Server: Uvicorn
 
 5.Run the app
 -uvicorn main:app --reload
--The app will be available at: http://127.0.0.1:8000
+ 
